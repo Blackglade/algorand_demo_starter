@@ -5,9 +5,8 @@ import { useSandboxData, useSandboxActive } from "./hooks/useSandbox";
 import useWallets from "./hooks/useWallets";
 
 import { Algodv2, ABIContract } from "algosdk";
-// import dao_abi from './contracts/dao_abi.json'
 
-// const contract = new ABIContract(dao_abi)
+// const contract = new ABIContract(<insert abi>)
 
 export default function App() {
 	const [app, setApp] = useState({

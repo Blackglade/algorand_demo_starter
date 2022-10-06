@@ -1,5 +1,3 @@
-
-
 export async function compileProgram(client, programSource) {
     const text = await fetch(programSource).then(f => f.text())
     let encoder = new TextEncoder();
